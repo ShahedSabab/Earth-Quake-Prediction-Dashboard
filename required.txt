@@ -1,0 +1,23 @@
+1. Install python V3.0 
+Link: https://www.anaconda.com/distribution/
+
+2. Install apache spark V3.0
+Link: https://spark.apache.org/downloads.html
+
+3. Copy winutils.exe to the bin folder of spark.
+
+4. Install MongoDB V4.2
+Link: https://www.mongodb.com/download-center/community
+
+5. Install NoSQLBooster (Gui for MongoDB)
+Link: https://nosqlbooster.com/
+> Create and connect to the localhost server
+
+6. Install Tableau Desktop
+Link: https://www.tableau.com/products/desktop?build=20194.19.1211.1636&edition=public&lang=en-us&platform=windows&version=2019.4
+
+7. Install MongoDB ODBC Connector for BI(let tableau to conncet to the MongoDB server)
+Link: https://www.mongodb.com/download-center/bi-connector
+
+8. Install MongoDB ODBC Driver. 
+Link: https://github.com/mongodb/mongo-odbc-driver/releases
