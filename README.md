@@ -3,7 +3,7 @@
 For interactive visualizations visit the following link:
 https://public.tableau.com/profile/shahed.anzarus.sabab#!/vizhome/EarthQuakePrediction/Dashboard1
 
-The objective is to report prediction of the earth quake from the historical data. A machine learning model is trained with historical data of the world related to earth quakes from 1965-2016. The data includes geographical location and magnitude of the earth quakes (23.5k samples). The model predicts earth quake magnitude for the year of 2017. Finally, a dashboard is created to visualize the prediction in addition to the historical analysis on the data.
+The objective is to report the prediction of the earthquake from the historical data. A machine learning model is trained with historical data of the world related to earthquakes from 1965-2016. The data includes geographical location and magnitude of the earthquakes (23.5k samples). The model predicts earthquake magnitude for the year of 2017. Finally, a dashboard is created to visualize the prediction in addition to the historical analysis on the data.
 <br/>
 • The data preprocessing and analysis is done using PySpark.<br/>
 • MongoDB is used for storing the processed data.<br/>
