@@ -1,4 +1,4 @@
-## Earth Quake Prediction Dashboard
+# Earth Quake Prediction Dashboard
 ![](dashboard.PNG?raw=true)
 For interactive visualizations visit the following link:
 https://public.tableau.com/profile/shahed.anzarus.sabab#!/vizhome/EarthQuakePrediction/Dashboard1
@@ -10,14 +10,14 @@ The objective is to report prediction of the earth quake from the historical dat
 • MLlib is used for training and prediction.<br/>
 • Finally, Tableau is used for reporting the results of the analysis.<br/>
 
-## File Description
+# File Description
 >>quakes.etl extracts the data, preprocess it and stores the processed data as MongoDB collections.
 <br/>
 >>quakes.ml loads the processed data from the server, trains regression model (i.e., Random Forest Regressor), predicts on test data and saves the prediction results as a new collection into the MongoDB server.
 <br/>
 >>Earth Quake.twb loads all the data from the server, create different visualizations and presents it on a dashboard.
 <br/>
-## How to run
+# How to run
 ♣ Check required.txt for required installations and plugins.
 <br/>
 >> Run quakes.etl using the following command from the cmd. 
