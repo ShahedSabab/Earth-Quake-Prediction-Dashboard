@@ -1,4 +1,4 @@
-# Earth Quake Prediction Dashboard
+# Earthquake Prediction Dashboard
 ![](dashboard.PNG?raw=true)
 For interactive visualizations visit the following link:
 https://public.tableau.com/profile/shahed.anzarus.sabab#!/vizhome/EarthQuakePrediction/Dashboard1
