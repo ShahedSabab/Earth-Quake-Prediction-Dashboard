@@ -17,7 +17,7 @@ The objective is to report the prediction of the earthquake from the historical 
 
 # How to run
 ♣ Check required.txt for required installations and plugins.<br/>
-1. Run quakes.etl using the following command from the cmd. 
+1. Run quakes.etl using the following command from the cmd. <br>
 spark-submit --packages org.mongodb.spark:mongo-spark-connector_2.12:2.4.1 quakes_etl.py<br/>
 2. Run quakes.ml using the following command from the cmd.
 spark-submit --packages org.mongodb.spark:mongo-spark-connector_2.12:2.4.1 quakes_ml.py<br/>
