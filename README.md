@@ -18,10 +18,10 @@ The objective is to report the prediction of the earthquake from the historical 
 # How to run
 ♣ Check required.txt for required installations and plugins.<br/>
 1. Run quakes.etl using the following command from the cmd. <br>
-spark-submit --packages org.mongodb.spark:mongo-spark-connector_2.12:2.4.1 quakes_etl.py<br/>
-2. Run quakes.ml using the following command from the cmd.
-spark-submit --packages org.mongodb.spark:mongo-spark-connector_2.12:2.4.1 quakes_ml.py<br/>
-3. Create a system DSN (i.e., saved configuration that describes a database connection to be used by an ODBC driver) for MongoDB using ODBC Data Sources.<br/>
-https://docs.mongodb.com/bi-connector/master/tutorial/create-system-dsn/<br/>
-4. Load the data in Tableau Desktop usign data source as Other Databases (ODBC).
+spark-submit --packages org.mongodb.spark:mongo-spark-connector_2.12:2.4.1 quakes_etl.py<br>
+2. Run quakes.ml using the following command from the cmd.<br>
+spark-submit --packages org.mongodb.spark:mongo-spark-connector_2.12:2.4.1 quakes_ml.py<br>
+3. Create a system DSN (i.e., saved configuration that describes a database connection to be used by an ODBC driver) for MongoDB using ODBC Data Sources.<br>
+https://docs.mongodb.com/bi-connector/master/tutorial/create-system-dsn/<br>
+4. Load the data in Tableau Desktop usign data source as Other Databases (ODBC).<br>
 Use the created DSN and connect.
